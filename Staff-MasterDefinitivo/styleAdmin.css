@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0a3c45;
+}
+#logo{
+    width: 10%;
+    margin: 20px;
+}
+.header{
+    background-color: black;
+    width: 98.3%;
+    padding: 13px;
+}
+#titulo{
+    color: white;
+    margin-left: 200px;
+    margin-top: -100px;
+    padding: 10px;
+}
+#subtitulo{
+    text-align: center;
+    color:white
+}
+#article{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    transition: 0.5s;
+
+}
+.a:hover{
+    background-color: white;
+    color: #0a3c45;
+    transition: 0.9s;
+}
+
+/*CREAR USUARIO */
+
+.form{
+    width: 20%;
+    height: 370px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Aplica desenfoque solo al fondo */
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.p-admin{
+    color: white;
+}
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  /* Estilo del input */
+  .input-container,.input-text{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  .input-container, .input-text:focus {
+    border-bottom: 2px solid #007BFF;
+    border: none;
+  }
+  .submit{
+    padding: 15px;
+    border-radius: 70px;
+    width: 40%;
+    font-size: 15px;
+    background-color: #2a8c4a;
+    border: none;
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+  }
+.submit:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    width: 50%;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.atras{
+    padding: 20px;
+    text-align: center;
+    border-radius: 70px;
+    width: 9.9%;
+    font-size: 15px;
+    background-color: #2a8c4a;
+    border: none;
+    transition: 0.4s;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-top: -77px;
+    margin-right: 40px;
+}
+.atras:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    width: 10%;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.cerrarSes{
+    padding: 20px;
+    border-radius: 70px;
+    width: 175px;
+    font-size: 15px;
+    background-color: #2a8c4a;
+    border: none;
+    transition: 0.2s;
+    float: right;
+    margin-top: -77px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.cerrarSes:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    width: 15%;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+/*LISTADO DE USUARIOS*/
+
+.leerUser{
+    width: 50%;
+   
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Aplica desenfoque solo al fondo */
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableLeer{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-bottom: white;
+    color: #2a8c4a;
+}
+td{
+    padding: 20px;
+}
+th{
+    padding: 10px;
+    color: white;
+}
+
+/*ACTUALIZAR USER*/
+
+select{
+    padding: 10px;
+    border-radius: 20px;
+    background-color:black;
+    color: white;
+    width: 68%;
+}
+
+/* BORRAR USER*/
+
+.form-borrar{
+    width: 20%;
+    height: 270px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Aplica desenfoque solo al fondo */
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.form-borrarDos{
+    width: 20%;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Aplica desenfoque solo al fondo */
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}

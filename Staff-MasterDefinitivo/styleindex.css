@@ -1,0 +1,140 @@
+
+/* ESTO DE ABAJO ES DE HEADER PABLO */
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 50px;
+    padding: 20px;
+    transition: 0.5s;
+    margin: 20px;
+}
+
+nav a:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: #9bfab0;
+    border-radius: 30px;
+}
+
+@media (max-widht:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+/* TODO ESTO DE ABAJO ES LO DEL MEDIO */
+
+.contenido{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 150px;
+    margin: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto1{
+    
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    width: 800px;
+    
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto2{
+    
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    width: 800px;
+    
+    float: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 20px;
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1px;
+}
+
+/* TODO ESTO DE ABAJO ES EL FOOTER */
+
+footer{
+    display: flex;
+    min-height: 150px;
+    background-color: rgb(32, 27, 27);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 1px;
+    
+}
+
+footer a{
+    color: white;
+    display: flex;
+    height: 100px;
+}
+
+
+
+/* ESTO DE MITAD ES LA PARTE DE MISION Y VISION*/
+
+.centro1{
+   
+    margin: 120px;
+}
+
+.miyvi{
+    height: 200px;
+}

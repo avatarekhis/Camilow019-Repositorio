@@ -1,0 +1,242 @@
+/* index - camilio */
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0px;
+    background-color: #d6fdf8;
+}
+#logo{
+    padding: 15px;
+    margin-left: 50px;
+}
+h1{
+    float: left;
+    margin-right: 40%;
+}
+h2{
+    margin-left: 225px;
+    margin-top: -80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* a:hover{
+    background-color: #9bfab0;
+    text-decoration: none;
+    
+}
+ */
+header{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+
+}
+#izq-header{
+    float: left;
+    margin-left: 5%;
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+}
+/* 
+#de-header{
+    float: right;
+    margin-left: 70%;
+    margin-right: 60px;
+    margin-top: -20px;
+}
+ */
+/* datos */
+
+#dashboard{
+    height: 200%;
+    width: 21%;
+    background-color: #fff;
+    position: absolute;
+}
+
+#icon{
+    height: 6%;
+    position: relative;
+    margin-left: 19%;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+#option{
+    margin-top: -320px;
+}
+#option-a{
+    font-weight: 600;
+    padding: 39px;
+    text-align: center;
+    transition: 0.7s;
+    border-radius: 50px;
+    margin-top: -30px;
+}
+
+#option-a:hover{
+  background-color: #9bfab0;
+  width: 10%;
+  color: white;
+  padding: 39px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+#encabezado{
+    width: 79%;
+    height: 20%;
+    margin-left: 21%;
+    position: absolute;
+
+}
+
+
+#logo-encabezado{
+    height: 120px;
+    margin-top: 2%;
+    margin-left: 7%;
+    float: left;
+}
+
+#nombre-perfil{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 70px;
+    float: left;
+}
+
+
+#padre{
+    width: 79%;
+    height: 80.5%;
+    position: absolute;
+    
+    margin-left: 21%;
+    margin-top: 8%;
+}
+
+#hijo{
+    width: 40%;
+    height: 70%;
+    background-color: #e5e2e2;
+    float: left;
+    margin: 5% 3% 0% 5%;
+    border-radius: 5px;
+    border: 3px solid #fff;
+}
+#hijo_ajuste{
+    width: 48%;
+    height: 70%;
+    background-color: #e5e2e2;
+    float: left;
+    margin: 5% 3% 0% 22%;
+    border-radius: 5px;
+    border: 3px solid #fff;
+}
+
+#titulo_box{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#contenido_hijo{
+    margin-left: 10%;
+}
+
+#boton{
+    width: 22%;
+    height: 40px;
+    margin-left: 3%;
+    margin-right: 8%;
+    margin-top: 20%;
+}
+
+#logo{
+    height: 180px;
+    margin-top: 10%;
+    margin-left: 24%;
+    position: relative;
+}
+
+#logo_indx{
+    height: 120px;
+    position: flex;
+    float: left;
+    margin-right: 100px;
+    margin-top: -15px;
+}
+#user{
+    text-transform: uppercase;
+}
+/* cal */
+
+#titulo-calendario{
+    float: right;
+}
+
+
+
+
+.input-container{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  /* Estilo del input */
+  .input-container,.input-text{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  .input-container, .input-text:focus {
+    border-bottom: 2px solid #007BFF;
+    border: none;
+  }
+  .submit{
+    padding: 15px;
+    border-radius: 70px;
+    width: 40%;
+    font-size: 15px;
+    background-color: #9bfab0;
+    border: none;
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+  }
+.submit:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    width: 50%;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.date{
+    width: 50%;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: 0.2s;
+
+}
+.date:hover{
+    transition: 0.5s;
+    width: 60%;
+    border: #000000 1px solid;
+}

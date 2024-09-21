@@ -1,0 +1,75 @@
+/* index - camilio */
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+   /* background-color:#0d2360;*/
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+#contenedor{
+    background-color:hsl(196, 100%, 97%);
+    margin-top: 12%;
+    width: 30%;
+    margin-left: 440px;
+    margin-right: 500px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 2px rgb(165, 165, 165);
+    border-radius: 20px;
+
+}
+#contenedor_2{
+    background-color:#ffffff;
+    width: 30%;
+    margin-left: 440px;
+    margin-right: 500px;
+    padding: 20px;
+
+}
+/*#contenedor_2{ aneterior
+    background-color:#ffffff;
+    width: 30%;
+    margin-left: 440px;
+    margin-right: 500px;
+    padding: 20px;
+
+}*/
+#buttom{
+    border-radius: 10px;
+    width: 110px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;   
+    border: solid 2px; 
+    
+}
+#buttom:hover{
+background-color:  #59a403;
+color: hsl(196, 100%, 97%);
+transition: 0.5s;
+}
+img{
+    float: right;
+    margin-top:-250px;
+    margin-right:530px;
+    width: 15%;
+}
+#logoh{
+    float: right;
+    margin-top:3cm;
+    margin-right:450px;
+    width: 25%;
+}
+
+/*#logoh{
+    float: right;
+    margin-top:-2cm;
+    margin-right:610px;
+    width: 15%;
+}*/
+/* datos */
